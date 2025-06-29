@@ -24,3 +24,26 @@ const myFunction = function(){
 console.table(heros)
 console.log(Obj);
 myFunction()
+
+//******************* 
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let userOne = "Aman"
+let userTwo = userOne
+userTwo = "John"
+console.log(userOne);
+console.log(userTwo);
+
+
+let Account = {
+    name : "Aman",
+    age : 21
+}
+
+let Account2 = Account
+
+Account2.name = "Jake"
+
+console.log(Account.name);  
+console.log(Account2.name);
