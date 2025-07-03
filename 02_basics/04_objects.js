@@ -43,6 +43,27 @@ const Users = [
     },
 ]
 
-console.log(Users[0].userid);
+console.log(Users[3].username); // Accessing property of an object in an array
 
 console.log(Object.entries(Users[0]))
+
+const course = {
+    courseName: "JavaScript Basics",
+    duration: "4 weeks",
+    instructor: {
+        name: "John Doe",
+        experience: "5 years"
+    },
+    topics: ["Variables", "Functions", "Objects", "Arrays"]
+};
+
+const {courseName : cname} = course; // Destructuring assignment
+
+course.courseName = "Advanced JavaScript"; // Modifying property
+
+//console.log(courseName); //Doesnt get modified
+console.log(cname);
+
+const {instructor: {name: instructorName}} = course; // Nested destructuring
+
+console.log(instructorName); // Accessing nested property
