@@ -23,4 +23,4 @@ for (let i = 0; i < state.length; i++) {
 }
 
 console.log(arr);
-console.log(state.split(""));
+console.log(state.split(""));  //Both are same

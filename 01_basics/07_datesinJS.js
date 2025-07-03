@@ -11,4 +11,4 @@ console.log(myDate.toDateString());
 
 let timestamp = Date.now()
 
-console.log(timestamp.toDateString());
+console.log(timestamp);
