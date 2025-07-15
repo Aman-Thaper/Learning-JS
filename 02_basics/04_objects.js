@@ -3,8 +3,10 @@ const User = new Object();    // Creating an object using the Object constructor
 const Jsuser = 
 {
     email : 'Aman@some.com',
-    fullname : {
-        userfullname : {
+    fullname : 
+    {
+        userfullname : 
+        {
             firstname : 'Aman',
             lastname : 'Thaper'
         }
@@ -24,7 +26,8 @@ obj3 = {...obj1,...obj2}
  
 console.log(obj3);
 
-const Users = [
+const Users = 
+[
     {
         userid : 123,
         username : "aman"
@@ -48,13 +51,19 @@ console.log(Users[3].username); // Accessing property of an object in an array
 console.log(Object.entries(Users[0]))
 
 const course = {
+    
     courseName: "JavaScript Basics",
+    
     duration: "4 weeks",
-    instructor: {
+    
+    instructor: 
+    {
         name: "John Doe",
         experience: "5 years"
     },
+    
     topics: ["Variables", "Functions", "Objects", "Arrays"]
+
 };
 
 const {courseName : cname} = course; // Destructuring assignment

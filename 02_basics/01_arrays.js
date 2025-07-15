@@ -16,5 +16,5 @@ console.log(myarr.includes(3));
 
 console.log(myarr)
 console.log(myarr.slice(2, 5)); // returns a new array from index 2 to 4
-console.log(myarr.splice(2, 5)); // removes elements from index 2 to 6 and returns them
+console.log(myarr.splice(2, 5)); // removes elements from index 2 to 6 and returns them     (Removes 5 elements starting from index 2)
 console.log(myarr); // myarr is now modified after splice
