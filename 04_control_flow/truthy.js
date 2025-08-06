@@ -1,7 +1,7 @@
 let userEmail = []
 
 if (userEmail){
-    console.log("Got user email");
+    console.log("Got user email"); //
 }else{
     console.log("Didnt get user email");
 }
@@ -11,7 +11,7 @@ let userEmail2 = ""
 if (userEmail2){
     console.log("Got user email");
 }else{
-    console.log("Didnt get user email");
+    console.log("Didnt get user email"); //
 }
 
 //Doesnt make sense right .... 
@@ -37,13 +37,13 @@ if (Object.keys(obj).length===0){
 let val1 ;
 
 val1 = 5 ?? 10
-console.log(val1);
+console.log(val1); //5
 
 val1 = null ?? 10
-console.log(val1);
+console.log(val1); //10
 
 val1 = null ?? undefined ?? 80085
-console.log(val1);
+console.log(val1); //80085
 
 //So basically '??' operator acts as a safety check . acts as fallback
 
